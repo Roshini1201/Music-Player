@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Music Player</title>
+        <link rel = "stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="container">
+            <img id="image" alt="song picture" src="pics/pic.jpg">
+            <div id="song_name">Name</div>
+            <div id="artist">Artist</div>
+            
+            <input id="time" type="range" min="0" value="0">
+            <div id="controls">
+                <button>
+                    <img id="shuffle" src="pics/shuff.png" >
+                </button>
+                <button>
+                    <img id="previous" src="pics/pixil-frame-0 (2).png">
+                </button>
+                <button>
+                    <img id="play" src="pics/play_6364350.png">
+                </button>
+                <button>
+                    <img id="next" src="pics/pixil-frame-0 (1).png">
+                </button>
+                <button>
+                    <img id="loop" src="pics/pixil-frame-0 (4).png">
+                </button>
+            </div> 
+        </div>
+        <audio id="audio" src="music/embrace-364091.mp3"></audio>
+        <script src="script.js"></script>
+    </body>
+</html>

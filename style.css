@@ -1,0 +1,59 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(113, 13, 27);
+}
+
+img{
+    height: 100px;
+    width: 100px;
+}
+
+button{
+    height: 100px;
+    width: 100px;
+    background: pink;
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    border-radius: 50%;
+}
+
+#container {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #B8DB80;
+  padding: 20px;
+  border-radius: 50px;
+}
+
+#controls{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+#image{
+    height: 300px;
+    width: 250px;
+    border-radius: 30px;
+    margin: 20px;
+}
+
+#song_name{
+    font-size: xx-large;
+    margin: 5px;
+}
+
+#song_name::first-letter{
+    color: purple;
+}
+
+#time{
+    accent-color: rgb(113, 13, 27);
+    width: 400px;
+    margin: 15px;
+    cursor: pointer;
+}
